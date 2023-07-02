@@ -7,4 +7,11 @@ public:
 	string info;
 	Node* leftchild;
 	Node* rightchild; 
+
+	//contructor for node class
+	Node(string i, Node* l, Node* r) {
+		info = i;
+		leftchild = l;
+		rightchild = r;
+	}
 };
